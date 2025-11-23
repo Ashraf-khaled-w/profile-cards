@@ -15,6 +15,10 @@ h1 {
   margin-bottom: 12px;
 }
 
+.app-container {
+  display: flex;
+}
+
 .card {
   width: 450px;
   margin: 40px;

@@ -67,6 +67,27 @@ export const peopleData = [
     bio: "Full-stack web developer who start his journey learning web development and passionate about teaching others.",
     skills: ["HTML+CSS", "JavaScript", "Web Design", "Git and GitHub", "React", "Svelte"],
   },
+  {
+    id: 2,
+    name: "Sarah Jenkins",
+    image: "/images/Ashraf.jpg",
+    bio: "Creative frontend developer with a passion for UI/UX design and building responsive web applications.",
+    skills: ["HTML+CSS", "React", "Web Design", "JavaScript"],
+  },
+  {
+    id: 3,
+    name: "Mike Thompson",
+    image: "/images/Ashraf.jpg",
+    bio: "Backend specialist focused on scalable server-side architectures and database optimization.",
+    skills: ["Node.js", "MongoDB", "Express", "Python"],
+  },
+  {
+    id: 4,
+    name: "Jessica Lee",
+    image: "/images/Ashraf.jpg",
+    bio: "Full stack developer who loves working with modern TypeScript stacks and solving complex problems.",
+    skills: ["TypeScript", "Next.js", "GraphQL", "React", "Git and GitHub"],
+  },
 ];
 
 // Helper function to get skill configuration

@@ -1,9 +1,7 @@
 import React from "react";
-import { peopleData, getSkillConfig } from "../data/cardsData";
+import { getSkillConfig } from "../data/cardsData";
 
-function Card({ personId = 0 }) {
-  const person = peopleData[personId];
-
+function Card({ person }) {
   if (!person) {
     return <div className="card">Person not found</div>;
   }
